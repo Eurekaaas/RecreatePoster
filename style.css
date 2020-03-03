@@ -1,0 +1,164 @@
+.bg{
+  width: 424px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bgcolor{
+  background-color: #FBD5A4;
+  width: 424px;
+  height: 640px;
+  position: relative;
+}
+
+.uppercircle{
+  height: 330px;
+  width: 330px;
+  position: absolute;
+  left: -40px;
+  top: 25px;
+  background-color: #9B242A;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.lowercircle{
+  height: 330px;
+  width: 330px;
+  position: absolute;
+  left: -40px;
+  top: 300px;
+  background-color: #9B242A;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.trapezoid{
+  border-bottom: 100px solid #9B242A;
+	border-left: 50px solid transparent;
+  position: absolute;
+	height: 0px;
+	width: 212px;
+  left: 212px;
+  top: 0;
+  /* overflow: hidden; */
+}
+
+.rect{
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 190px;
+  top: 455px;
+  background-color: #9B242A;
+  overflow: hidden;
+}
+
+.title{
+  font-family: 'Montserrat Alternates';
+  position: absolute;
+  left: 250px;
+  top: 280px;
+  font-weight: bolder;
+  font-size: 32px;
+  font-stretch: condensed;
+  color: #9B242A;
+}
+
+.date{
+  font-family: 'Montserrat Alternates';
+  position: absolute;
+  left: 340px;
+  top: 320px;
+  font-family: 'Lato';
+  font-size: 15px;
+  font-weight: 900;
+  color: #9B242A;
+}
+
+.leftbar{
+  height: 400px;
+  width: 6px;
+  position: absolute;
+  left: 321px;
+  bottom: 331.5px;
+  background-color: #9B242A;
+}
+
+.rightbar{
+  height: 400px;
+  width: 6.2px;
+  position: absolute;
+  left: 333.3px;
+  top: 332.5px;
+  background-color: #9B242A;
+}
+
+.germany{
+  font-family: 'Lexend Deca';
+  position: absolute;
+  line-height: 2px;
+  font-size: 19px;
+  text-align: left;
+  left: 195px;
+  top: 420px;
+  font-weight: bold;
+}
+
+.texts{
+  font-family: 'Lexend Deca';
+  position: absolute;
+  line-height: 2px;
+  font-size: 14px;
+  text-align: right;
+  left: 65px;
+  top: 450px;
+  font-weight: bold;
+}
+
+.overlap1{
+  height: 330px;
+  width: 330px;
+  position: absolute;
+  bottom: 275px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.overlap2{
+  height: 330px;
+  width: 330px;
+  position: absolute;
+  bottom: 75px;
+  right: 150px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.overlap3{
+  height: 400px;
+  width: 6.2px;
+  position: absolute;
+  left: 143.3px;
+  background-color: black;
+}
+
+.overlap4{
+  border-bottom: 100px solid black;
+  border-left: 50px solid transparent;
+  position: absolute;
+  height: 0px;
+  width: 212px;
+  left: 252px;
+  top: -25px;
+}
+
+.overlap5{
+  height: 200px;
+  width: 6px;
+  position: absolute;
+  /* left: 321px; */
+  bottom: 208.5px;
+  background-color: black;
+}
